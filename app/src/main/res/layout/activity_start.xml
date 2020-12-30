@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_marginTop="18sp"
+        android:layout_width="151dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/game"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="-40dp" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="57dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Math Game"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="300sp"
+        android:layout_marginTop="26sp"
+        android:text="Addition"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="300sp"
+        android:layout_marginTop="26sp"
+        android:text="Subtraction"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="300sp"
+        android:layout_marginTop="26sp"
+        android:text="Multiplication"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/div"
+        android:layout_width="300sp"
+        android:layout_marginTop="26sp"
+        android:text="Modulus"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
